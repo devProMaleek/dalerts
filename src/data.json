@@ -1,0 +1,110 @@
+{
+  "name": "Notification Alert List",
+  "data": [
+    {
+      "id": 1,
+      "symbol": "sushi",
+      "logo": "/img/sushi.png",
+      "exchange_name": "Uniswap",
+      "token_address": "hyyqaiufhgu4734t934bfadlk",
+      "exchange_address": "hsakugjei8q3w09utq9nfl",
+      "blockchain": "Polygon",
+      "alert_price": 0.62,
+      "current_price": 0.59,
+      "notification_type": "Discord"
+    },{
+      "id": 2,
+      "symbol": "pickle",
+      "logo": "/img/pickle.png",
+      "exchange_name": "Panwap",
+      "token_address": "hyyqaiufhgu4734t934bfadlk",
+      "exchange_address": "hsakugjei8q3w09utq9nfl",
+      "blockchain": "Solana",
+      "alert_price": 0.62,
+      "current_price": 0.20,
+      "notification_type": "Web"
+    },{
+      "id": 3,
+      "symbol": "inv",
+      "logo": "/img/inv.png",
+      "exchange_name": "Uniswap",
+      "token_address": "hyyqaiufhgu4734t934bfadlk",
+      "exchange_address": "hsakugjei8q3w09utq9nfl",
+      "blockchain": "ETH",
+      "alert_price": 0.67,
+      "current_price": 0.82,
+      "notification_type": "Slack"
+    },{
+      "id": 4,
+      "symbol": "sushi",
+      "logo": "/img/sushi.png",
+      "exchange_name": "Uniswap",
+      "token_address": "hyyqaiufhgu4734t934bfadlk",
+      "exchange_address": "hsakugjei8q3w09utq9nfl",
+      "blockchain": "Polygon",
+      "alert_price": 0.79,
+      "current_price": 0.33,
+      "notification_type": "Discord"
+    }
+  ],
+  "exchange_name": [
+    {
+      "id": 1,
+      "symbol": "SUSHI",
+      "logo": "./img/sushi.png",
+      "name": "Uniswap"
+    },
+    {
+      "id": 2,
+      "symbol": "PICKLE",
+      "logo": "./img/pickle.png",
+      "name": "Quickswap"
+    },
+    {
+      "id": 3,
+      "symbol": "INV",
+      "logo": "./img/inv.png",
+      "name": "Sushiswap"
+    }
+  ],
+  "blockchain_name": [
+    {
+      "id": 1,
+      "name": "Ethereum"
+    },
+    {
+      "id": 2,
+      "name": "Polygon"
+    },
+    {
+      "id": 3,
+      "name": "Stellar"
+    },
+    {
+      "id": 4,
+      "name": "Solana"
+    },
+    {
+      "id": 5,
+      "name": "NEAR"
+    }
+  ],
+  "notification_type": [
+    {
+      "id": 1,
+      "name": "Discord"
+    },
+    {
+      "id": 2,
+      "name": "Web"
+    },
+    {
+      "id": 3,
+      "name": "Twitter"
+    },
+    {
+      "id": 4,
+      "name": "Telegram"
+    }
+  ]
+}
