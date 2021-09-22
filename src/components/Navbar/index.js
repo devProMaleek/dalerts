@@ -1,5 +1,6 @@
 // Import the necessary libraries.
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 // Import the styled Component
@@ -10,10 +11,12 @@ import { Wrapper, AlertContent, Content, Line} from "./Navbar.styles";
 const Navbar = () => (
     <Wrapper>
         <AlertContent>
-            <div className="container">
-                <img src="/img/Vector.png" alt=""/>
-                <p className="dalerts">dAlerts</p>
-            </div>
+            <Link to="/">
+                <div className="container">
+                    <img src="/img/Vector.png" alt=""/>
+                    <p className="dalerts">dAlerts</p>
+                </div>
+            </Link>
             <p className="nav-text">My Alerts</p>
         </AlertContent>
         <Content>

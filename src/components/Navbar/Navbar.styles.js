@@ -23,6 +23,7 @@ export const AlertContent = styled.div`
     //top: 43.02px;
     font-size: 12px;
     color: #ffffff;
+    text-decoration: none;
   }
   .nav-text {
     color: #ffffff;
